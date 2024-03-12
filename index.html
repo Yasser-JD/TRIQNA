@@ -20,9 +20,9 @@
 </head>
 
 <body>
-    <div class="color">
-    <div class="container">
-        <header>
+    <div class="container-fluid Header">
+        <!--///////////--HEADER SECTION: NAVBAR--///////////////-->
+        <header class="container">
             <nav class="navbar navbar-expand-md">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -42,72 +42,65 @@
                             <a class="nav-link" href="#">Contact Us</a>
                         </div>
                     </div>
-                    <form class="collapse justify-content-end" id="navbarNavAltMarkup">
+                    <form class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <button class="btn" type="button">
-                            <i class="fa-brands fa-facebook"></i>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         </button>
                         <button class="btn" type="button">
-                            <i class="fa-solid fa-phone"></i> </button>
+                            <a href="#"><i class="fa-solid fa-phone"></i></a>
+                        </button>
                         <button class="btn" type="button">
-                            <i class="fa-solid fa-envelope"></i> </button>
-                        <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
+                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        </button>
                     </form>
 
                 </div>
             </nav>
-        </header><hr><br><br>
+        </header>
+        <!--///////////--END HEADER SECTION--///////////////-->
+        <!--///////////--TITLE SECTION : FORM--///////////////-->
+        <div class="container landing">
+            <div class="intro-text">
+                <h1>Trouvez le professeur particulier idéal</h1>
+                <button><a href="">Rserver un session</a></button>
+            </div>
+        </div>
+        <!--///////////--END TITLE SECTION--///////////////-->
+        <!--///////////--PROF. SECTION--///////////////-->
+        <div class="container Un">
+            <div class="Info">
+                <p>Nos professeurs
+                    particuliers sont
+                    issus des <strong style="color:#5356FF;">Grandes
+                        Écoles</strong> les plus
+                    prestigieuses
+                </p>
+                <div class="Univs">
+                    <img src="imgs/fse.png" alt="">
+                    <img src="imgs/ena rabat.png" alt="">
+                    <img src="imgs/fsr.png" alt="">
+                    <img src="imgs/Fsjes.jpeg" alt="">
+                    <img src="imgs/ens.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--///////////--END PROF. SECTION--///////////////-->
+        <!--///////////--FOOTER SECTION--///////////////-->
+        <div class="container">
+            <footer>
+                <p>&copy;2024 Triqna | All Rights Reserved</p>
+            </footer>
+        </div>
+        <!--///////////--END FOOTER SECTION--///////////////-->
+
     </div>
 
-    <div class="container">
-        <div class="row">
-            <b>Trouvez le professeur particulier idéal</b><br><br>
-            <div class="col-sm-3">
-              <h3> En ligne<img src="imgs/webinar.png"> </h3><hr></div>
-            <div class="col-sm-3">
-              <h3> A domicile<img src="imgs/presentation.png"> </h3><hr></div>
-              <div class="col-sm-3">
-              <h3> En 1:1<img src="imgs/meeting.png"> </h3><hr></div>
-              <div class="col-sm-3">
-              <h3> En groupe<img src="imgs/classroom.png"> </h3><hr></div>
-              
-            
-        
-    </div>
-    </div><br>
-  
 
-  <form></form>
+
+
     <!-- javascript file -->
     <script src="js/main.js"></script>
-    <!-- form -->
-    <h4>Si vous souhaitez nous rejoindre, vous dovez remplir les chaux :</h4>
-    <form action="/action_page.php" class="was-validated">
-  <div class="mb-3 mt-3">
-    <label for="uname" class="form-label">nom et prénom :</label>
-    <input type="text" class="form-control" id="uname" placeholder="Enter votre nom et prénom " name="uname" required>
-    <div class="valid-feedback">Valid.</div>
-    <div class="invalid-feedback"> vous dovez remplir le chaux.</div>
-  </div>
-  <div class="mb-3">
-    <label for="tele" class="form-label">le numéro de téléphone :</label>
-    <input type="tele" class="form-control" id="tele" placeholder="Enter votre télé" name="tele" required>
-    <div class="valid-feedback">Valid.</div>
-    <div class="invalid-feedback">vous dovez remplir le chaux.</div>
-  </div>
-  <div class="mb-3 mt-3">
-    <label for="mail" class="form-label">émail :</label>
-    <input type="email" class="form-control" id="mail" placeholder="Enter votre émail " name="mail" required>
-    <div class="valid-feedback">Valid.</div>
-    <div class="invalid-feedback"> vous dovez remplir le chaux.</div>
-   <select class="form-select" aria-label="Default select example">
-  <option selected>ouvrir se chaux pour séléctioner votre option</option>
-  <option value="1">cours sotien</option>
-  <option value="2">formation</option>
-  
-</select>
-  <button type="submit" class="btn btn-primary">valider</button>
-</form>
-</div>
+
 </body>
 
 </html>
