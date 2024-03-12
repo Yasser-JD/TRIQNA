@@ -1,0 +1,32 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------Header-------*/
+header {
+    background-color: #EEEEEE;
+    margin-top: 20px;
+    box-shadow: 5px;
+    position: sticky;
+    top: 20px;
+}
+nav .navbar-brand {
+    margin-right: 30px;
+}
+nav .navbar-nav a {
+    color: #67C6E3;
+    font-weight: 500;
+    margin-right: 3px;
+}
+nav .navbar-nav a:active {
+    font-weight: 700 !important;
+    color: #378CE7;
+    transition: 0.3s;
+}
+nav .navbar-nav a:hover {
+    font-weight: 700 !important;
+    color: #378CE7;
+    transition: 0.3s;
+}
+
+/*------End Header-------*/
