@@ -2,7 +2,11 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
+<<<<<<< HEAD
      
+=======
+    
+>>>>>>> 9b3fabeb54776f704ad2bd95397ea836805a95dd
 }
 
 /*--------Header-------*/
@@ -55,7 +59,10 @@ form button i {
     position: relative;
     background-color: black;
     opacity: 0.6;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b3fabeb54776f704ad2bd95397ea836805a95dd
     
 }
 .landing .intro-text {
@@ -66,6 +73,7 @@ form button i {
     text-align: center;
     width: 80%;
     max-width: 100%;
+<<<<<<< HEAD
 
 
     
@@ -74,6 +82,11 @@ form button i {
   .ha{
     background-color: #EEEEEE;
   }
+=======
+    
+    
+  }
+>>>>>>> 9b3fabeb54776f704ad2bd95397ea836805a95dd
 .landing .intro-text h1 {
     margin: 0;
     font-weight: bold;
@@ -124,11 +137,16 @@ form button i {
 }
 /*--------End PROF section--------*/
 /*-------Footer/-------*/
+<<<<<<< HEAD
   footer {
+=======
+.container footer {
+>>>>>>> 9b3fabeb54776f704ad2bd95397ea836805a95dd
     background-color: #378CE7;
     text-align: center;
     border: #378CE7 ;
     height: 100px;
+<<<<<<< HEAD
     padding-top: 44px;
     width: 100%;
 
@@ -280,3 +298,11 @@ article img {
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
     color: #3f43fd;
+=======
+}
+.container footer  p {
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+/*-------End Footer-----*/
+>>>>>>> 9b3fabeb54776f704ad2bd95397ea836805a95dd
