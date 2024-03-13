@@ -1,14 +1,20 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+body {
+    
+}
 
 /*--------Header-------*/
 header {
-    background-color: 00FFFF;
-    margin-top: 20px;
+    background-color: #EEEEEE;
+    margin-top: 0px;
     box-shadow: 5px;
     position: sticky;
-    top: 20px;
+    top: 0px;
+}
+.Header {
+    background-color: #EEEEEE;
 }
 nav .navbar-brand {
     margin-right: 30px;
@@ -30,33 +36,96 @@ nav .navbar-nav a:hover {
 }
 form button i {
     font-size: 18px;
-    color
 }
 /*------End Header-------*/
-/*------first_images----*/
-img{
-    width: 50px;
+
+/*-----Title Section------*/
+/*---mediaQuery---*/
+/* Medium*/
+@media (max-width: 768px) {
+    .landing .intro-text h1  {
+        width: 750px;
+    }
 }
-.color {
-    background-color: #E0FFFF;
+.landing {
+    background-image: url(../imgs/TitleSection.jpg);
+    background-size: cover;
+    box-shadow: inset;
+    height: calc(100vh - 80px);
+    position: relative;
+    background-color: black;
+    opacity: 0.6;
+    
 }
-b {
+.landing .intro-text {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    width: 80%;
+    max-width: 100%;
+    
+    
+  }
+.landing .intro-text h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
     color: blue;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+} 
+.landing .intro-text  button  {
+    font-size: 19px;
+    line-height: 1.8;
+    margin-top: 28px;
+    border-radius: 5px;
+    border: #378CE7 solid 2px;
+    padding: 2px 7px;
 
-
-
+} 
+.landing .intro-text button a {
+    text-decoration: none;
+    color: #378CE7;
 }
-button{
-    background-color: white;
-    border-radius: ;
-}
+/*-----End Title Section------*/
+/*--------PROF section--------*/
 
-h4 {
+.Un {
+    height: 300px;
+    position: relative;
+}
+.Un .Info {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    width: 80%;
+    max-width: 100%;
 }
-button{
-    width: 1349px;
+.container .Info p {
+    font-size: 30px;
+    font-weight: 700;
+    color: ;
 }
+.container .Info  .Univs img {
+    width: 100px;
+    height: 100px;
+    margin-right: 12px;
+}
+.container .Info  .Univs  {
+    margin-top: 30px;
+}
+/*--------End PROF section--------*/
+/*-------Footer/-------*/
+.container footer {
+    background-color: #378CE7;
+    text-align: center;
+    border: #378CE7 ;
+    height: 100px;
+}
+.container footer  p {
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+/*-------End Footer-----*/
